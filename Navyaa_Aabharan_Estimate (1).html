@@ -370,8 +370,8 @@ function calc() {
   // E39 = E29 + E38
   const E39 = E29 + E38;
 
-  // E40 = E23 - E39
-  const E40 = Math.max(0, E23 - E39);
+  // E40 = E23 - E39, then bonus added on top for display per business preference
+  const E40 = Math.max(0, (E23 - E39) + E37);
 
   // UPDATE DISPLAY
   set('E23', fmt(E23));
