@@ -150,12 +150,6 @@
       <div class="mv"><input type="text" id="est-no" placeholder="EST-YYYYMMDD-001" /></div>
     </div>
     <div class="mc">
-      <div class="ml">Date</div>
-      <div class="mv" id="est-date" style="padding-top:0"></div>
-    </div>
-  </div>
-  <div class="meta">
-    <div class="mc">
       <div class="ml">Customer Name</div>
       <div class="mv"><input type="text" id="cust-name" placeholder="Name" /></div>
     </div>
@@ -164,13 +158,13 @@
       <div class="mv"><input type="tel" id="phone" placeholder="98450 XXXXX" /></div>
     </div>
     <div class="mc">
-      <div class="ml">Scheme No.</div>
-      <div class="mv"><input type="number" id="sch-no" placeholder="XXX" /></div>
-    </div> 
+      <div class="ml">Date</div>
+      <div class="mv" id="est-date" style="padding-top:0"></div>
+    </div>
   </div>
 
   <!-- SALES PERSON -->
-     <div class="row">
+  <div class="row">
     <div class="rl">Sales Person Name <span class="rl-kn">ಮಾರಾಟಗಾರರ ಹೆಸರು</span></div>
     <div class="rv"><input type="text" id="sp-name" placeholder="Name" style="text-align:right" /></div>
   </div>
@@ -432,7 +426,7 @@ function confirmNewEstimate() {
 window.onload = function() {
   document.getElementById('E20').value = 18;
   document.getElementById('E22').value = 3;
-  document.getElementById('E28').value = 11;
+  document.getElementById('E28').value = 12;
   genEstNo();
 };
 </script>
